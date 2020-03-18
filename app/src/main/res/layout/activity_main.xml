@@ -54,6 +54,8 @@
 
     <TextView
         android:id="@+id/result"
+        android:clickable="true"
+        android:onClick="OpenShowInfoActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Result"
@@ -65,6 +67,7 @@
         android:layout_marginBottom="15sp"/>
 
     <TableLayout
+        android:id="@+id/bmi"
         android:layout_marginTop="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
@@ -99,7 +102,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             <TextView
-                android:textColor="@color/niebieski"
+                android:textColor="@color/blue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
@@ -122,7 +125,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             <TextView
-                android:textColor="@color/niebieski"
+                android:textColor="@color/blue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
@@ -145,7 +148,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             <TextView
-                android:textColor="@color/niebieski"
+                android:textColor="@color/blue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
@@ -168,7 +171,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             <TextView
-                android:textColor="@color/zielony"
+                android:textColor="@color/green"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
@@ -191,7 +194,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             <TextView
-                android:textColor="@color/zolty"
+                android:textColor="@color/yellow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
@@ -214,7 +217,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             <TextView
-                android:textColor="@color/czerwony"
+                android:textColor="@color/red"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
@@ -238,7 +241,7 @@
             android:layout_height="match_parent"
             <TextView
 
-                android:textColor="@color/czerwony"
+                android:textColor="@color/red"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
@@ -262,7 +265,7 @@
             android:layout_height="match_parent"
             <TextView
 
-                android:textColor="@color/czerwony"
+                android:textColor="@color/red"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:gravity="center_horizontal"
@@ -286,10 +289,6 @@
 
     </TableLayout>
 
-    <Button
-        android:id="@+id/author"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Author" />
+
 
 </android.widget.LinearLayout>
